@@ -1,0 +1,120 @@
+{
+  "msg": "success",
+  "code": 1,
+  "resultObj": [
+    {
+      "rel_name": "是"
+    },
+    {
+      "rel_name": "组成"
+    },
+    {
+      "rel_name": "对应"
+    },
+    {
+      "rel_name": "属于"
+    },
+    {
+      "rel_name": "拥有"
+    },
+    {
+      "rel_name": "出生于"
+    },
+    {
+      "rel_name": "死亡于"
+    },
+    {
+      "rel_name": "创造"
+    },
+    {
+      "rel_name": "毁灭"
+    },
+    {
+      "rel_name": "活在"
+    },
+    {
+      "rel_name": "隶属"
+    },
+    {
+      "rel_name": "信奉"
+    },
+    {
+      "rel_name": "说"
+    },
+    {
+      "rel_name": "精通"
+    },
+    {
+      "rel_name": "使用"
+    },
+    {
+      "rel_name": "佩戴"
+    },
+    {
+      "rel_name": "专供"
+    },
+    {
+      "rel_name": "参与"
+    },
+    {
+      "rel_name": "领导"
+    },
+    {
+      "rel_name": "破坏"
+    },
+    {
+      "rel_name": "成立于"
+    },
+    {
+      "rel_name": "消失于"
+    },
+    {
+      "rel_name": "敌对"
+    },
+    {
+      "rel_name": "联盟"
+    },
+    {
+      "rel_name": "合作"
+    },
+    {
+      "rel_name": "竞争"
+    },
+    {
+      "rel_name": "从事"
+    },
+    {
+      "rel_name": "特指"
+    },
+    {
+      "rel_name": "人物关系"
+    },
+    {
+      "rel_name": "登场"
+    },
+    {
+      "rel_name": "主角"
+    },
+    {
+      "rel_name": "讲述"
+    },
+    {
+      "rel_name": "涉及"
+    },
+    {
+      "rel_name": "评价"
+    },
+    {
+      "rel_name": "出版于"
+    },
+    {
+      "rel_name": "发生于"
+    },
+    {
+      "rel_name": "发起"
+    },
+    {
+      "rel_name": "终结"
+    }
+  ]
+}

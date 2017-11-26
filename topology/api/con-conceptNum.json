@@ -1,0 +1,126 @@
+{
+  "msg": "success",
+  "code": 1,
+  "resultObj": [
+    {
+      "total": 3502,
+      "c_name": "年"
+    },
+    {
+      "total": 12,
+      "c_name": "月"
+    },
+    {
+      "total": 31,
+      "c_name": "日"
+    },
+    {
+      "total": 1160796,
+      "c_name": "日期"
+    },
+    {
+      "total": 279754,
+      "c_name": "人物"
+    },
+    {
+      "total": 225783,
+      "c_name": "小说"
+    },
+    {
+      "total": 24044,
+      "c_name": "组织"
+    },
+    {
+      "total": 15379,
+      "c_name": "页数"
+    },
+    {
+      "total": 318,
+      "c_name": "评分"
+    },
+    {
+      "total": 94719,
+      "c_name": "字数"
+    },
+    {
+      "total": 16656290,
+      "c_name": "章"
+    },
+    {
+      "total": 13648,
+      "c_name": "现实人物"
+    },
+    {
+      "total": 29703,
+      "c_name": "编号"
+    },
+    {
+      "total": 98381,
+      "c_name": "介绍"
+    },
+    {
+      "total": 453925,
+      "c_name": "图片"
+    },
+    {
+      "total": 16765796,
+      "c_name": "网络连接"
+    },
+    {
+      "total": 151,
+      "c_name": "文学类型"
+    },
+    {
+      "total": 7,
+      "c_name": "星期"
+    },
+    {
+      "total": 76478,
+      "c_name": "影视作品"
+    },
+    {
+      "total": 1642,
+      "c_name": "语言"
+    },
+    {
+      "total": 602,
+      "c_name": "集数"
+    },
+    {
+      "total": 1056,
+      "c_name": "单集长度"
+    },
+    {
+      "total": 25,
+      "c_name": "影视类型"
+    },
+    {
+      "total": 317,
+      "c_name": "职业"
+    },
+    {
+      "total": 34,
+      "c_name": "血型"
+    },
+    {
+      "total": 12,
+      "c_name": "星座"
+    },
+    {
+      "total": 115,
+      "c_name": "信仰"
+    },
+    {
+      "total": 53062,
+      "c_name": "文艺作品"
+    },
+    {
+      "total": 4,
+      "c_name": "性别"
+    },
+    {
+      "total": 195,
+      "c_name": "国家"
+    }
+  ]
+}

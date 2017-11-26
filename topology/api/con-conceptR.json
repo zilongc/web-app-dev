@@ -1,0 +1,1136 @@
+//{
+//  "compilerOptions": {
+//    "module": "commonjs",
+//    "target": "es5",
+//    "sourceMap": true
+//  },
+//  "exclude": [
+//    "node_modules"
+//  ]
+//}
+{
+  "msg": "success",
+  "code": 1,
+  "resultObj": [
+    {
+      "name": "国家",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "文学作品",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "事件",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "动态艺术",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "字数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "胸围",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "实数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "电影",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "三围",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "整数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "物种",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "死亡时代",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "编号",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "工艺美术",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "饰物",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "活跃时代",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "评分",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "宗教",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "人种",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "日",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "衣服",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "页数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "数值",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "舞台戏剧",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "年",
+      "isabstract": false,
+      "isfinite": false,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "外貌特征",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "星期",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "时代",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "语言",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "出生时代",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "诗歌",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "舞蹈",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "网络连接",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "小说",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "肤色",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "腰围",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "地区",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "虚拟人物",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "事件类型",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "连续剧",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "脱口秀",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "正实数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "武器",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "外貌描述",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "现实人物",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "单集长度",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "节日",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "文学类型",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "漫画",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "月日",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "省",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "市",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "纪录片",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "戏剧",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "月",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "死亡状态",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "地点",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "文艺作品",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "星座",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "县",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "图片",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "职务",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "血型",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "音乐",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "活跃地点",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "物品",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "书法",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "自然数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "雕塑",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "介绍",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "日期",
+      "isabstract": false,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "民族",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "节",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "组织",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "综艺",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "信仰",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "罩杯",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "身高",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "性别",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "集数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "死亡日期",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "影视作品",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "绘画",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "臀围",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "章",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "身份",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "影视类型",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "人物",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "静态艺术",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "年龄",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "段落",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "文学单元",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "正整数",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "行业",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "散文",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "漫画类型",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "体重",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "国籍",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "出生日期",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "职业",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": true
+    },
+    {
+      "name": "子女",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "社会关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "战友",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "毁灭",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "母亲",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "竞争",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "父亲",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "涉及",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "特指",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "属于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "使用",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "对称关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "儿子",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "出生于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "敌对",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "联盟",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "精通",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "女儿",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "发起",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "信奉",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "同事",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "是",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "学生",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "创造",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "消失于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "情人",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "终结",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "评价",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "成立于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "死亡于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "亲属关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "同学",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "合作",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "主角",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "登场",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "老师",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "参与",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "佩戴",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "人物关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "传递关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "破坏",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "双亲",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "讲述",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "活在",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "组成",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "专供",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "从事",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "拥有",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "兄弟",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "领导",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "对应",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "朋友",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "说",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "情感关系",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "夫妻",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "队友",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "合伙人",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "发生于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "隶属",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    },
+    {
+      "name": "出版于",
+      "isabstract": true,
+      "isfinite": true,
+      "islistable": true,
+      "iscomparable": false
+    }
+  ]
+}
