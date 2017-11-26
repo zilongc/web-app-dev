@@ -1,3 +1,10 @@
-.idea/*
-.idea/vcs.xml
-.DS_Store/
+*.iml
+.gradle
+/local.properties
+/.idea/
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
