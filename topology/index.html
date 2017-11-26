@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页-概念关系查询</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="相关关系图" />
+    <meta name="keywords" content="关系, 人物, 国家, 概念, 特征" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" href="css/concept.css">
+    <script src="js/dynamic.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/echarts.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="d3/d3.js"></script>
+
+
+
+</head>
+<body>
+<!--头部Tab-->
+<div class="header">
+    <div class="wp ">
+        <button type="button" class="btn btn-default navbar-btn"><a href="index.html">概念关系查询</a></button>
+        <button type="button" class="btn btn-default navbar-btn"><a href="objectSearchTab.html">对象查询</a></button>
+    </div>
+</div>
+<!--中间主体-->
+<div class="main">
+    <div class="wp-main">
+        <!--概念关系表模态框按钮-->
+        <div class="main-left">
+            <div class="btn-group-vertical" role="group" aria-label="...">
+                <button type="button" class="btn btn-primary btn-lg btn-default navbar-btn" data-toggle="modal" data-target="#myModal">
+                    概<br >念<br >表
+                </button>
+                <button type="button" class="btn btn-primary btn-lg btn-default navbar-btn" data-toggle="modal" data-target="#myModal">
+                    关<br >系<br >表
+                </button>
+            </div>
+        </div>
+        <!--模态框-->
+        <!-- Button trigger modal -->
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <!--<div id="main-model" style="width: 1140px;height:400px;"></div>-->
+                        <table border="1">
+                            <tr>
+                                <th>概念名</th>
+                                <th>数据量</th>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-right " >
+
+            <div class="mid-cr">
+                <!--下拉按钮概念查询-->
+                <div class="btn-group " style="display: inline-block;vertical-align: middle;">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        概念 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">名字</a></li>
+                        <li><a href="#">关系</a></li>
+                        <li><a href="#">语言</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">肤色</a></li>
+                    </ul>
+                </div>
+                <!--下拉按钮关系查询-->
+                <div class="btn-group " style="display: inline-block;vertical-align: middle;">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        关系 <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#"></a></li>
+                        <li><a href="#">关系</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--底部预留-->
+<div class="footer">
+
+</div>
+
+
+<script>
+
+    $.ajax({
+        url: '192.168.3.221:8000/api/v2/xadmin/objects/',
+        type: 'post',
+        data: {
+            // 请求参数
+        },
+        success: function(obj) { // 接口调用成功回调函数
+            // data 为服务器返回的数据
+        }
+    });
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main-model'));
+    myChart.showLoading();
+//    /api/v2/xadmin/concept/
+    $.getJSON('data/asset/data/npmdepgraph.min10.json', function (json) {
+        myChart.hideLoading();
+        myChart.setOption(option = {
+            title: {
+                text: '关系图'
+            },
+            animationDurationUpdate: 1500,
+            animationEasingUpdate: 'quinticInOut',
+            series : [
+                {
+                    type: 'graph',
+                    layout: 'none',
+                    // progressiveThreshold: 700,
+                    data: json.nodes.map(function (node) {
+                        return {
+                            x: node.x,
+                            y: node.y,
+                            id: node.id,
+                            name: node.label,
+                            symbolSize: node.size,
+                            itemStyle: {
+                                normal: {
+                                    color: node.color
+                                }
+                            }
+                        };
+                    }),
+                    edges: json.edges.map(function (edge) {
+                        return {
+                            source: edge.sourceID,
+                            target: edge.targetID
+                        };
+                    }),
+                    label: {
+                        emphasis: {
+                            position: 'right',
+                            show: true
+                        }
+                    },
+                    roam: true,
+                    focusNodeAdjacency: true,
+                    lineStyle: {
+                        normal: {
+                            width: 0.5,
+                            curveness: 0.3,
+                            opacity: 0.7
+                        }
+                    }
+                }
+            ]
+        }, true);
+    });
+</script>
+
+</body>
+</html>
